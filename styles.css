@@ -109,8 +109,8 @@ p, h1, h2, h3, h4, h5, h6 {
 }
 
 img {
-    max-width: 100%;
-    height: 100%;
+    width: 100%;
+    min-height: 100%;
 }
 
 /* body properties */
@@ -262,6 +262,7 @@ article {
     .img_container {
         flex: 1;
         border-radius: 1rem 0 0 1rem;
+        background-color: lightblue;
     }
 
     .img_container img {
